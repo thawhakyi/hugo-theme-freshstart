@@ -1,11 +1,11 @@
-baseURL: https://example.com
+baseURL: https://thawhakyi.co
 languageCode: en-us
-title: Your site title
+title: thawhakyi's web
 theme: freshstart
 
 params:
-  author: Ricardo Franzen
-  description: rfranzen.com
+  author: thawhakyi
+  description: thawhakyi.co
   favicon: /favicon.ico
 
 
@@ -18,6 +18,10 @@ params:
       activated: true
       icon: fas fa-search
       url: https://www.duckduckgo.com
+    - name: Bing
+      activated: true
+      icon: fas fa-search
+      url: https://www.bing.com
 
 
   nav:
@@ -61,10 +65,10 @@ params:
         - name: terraform
           url: https://www.terraform.io/docs/
     
-    - group: tools
+    - group: My Sites
       icon: fas fa-tools
       items:
-        - name: some site
-          url: #
-        - name: another site
-          url: #
+        - name: Kaytumadi
+          url: https://kaytumadi.net
+        - name: Sport Corner
+          url: https://sportcorner.com
